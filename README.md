@@ -1,27 +1,92 @@
-<<<<<<< HEAD
-# Anime Face Generation - DCGAN 
+# 🎨 Anime Face Generation using DCGAN
 
-# Project Information
+Generate realistic anime-style faces using a **Deep Convolutional Generative Adversarial Network (DCGAN)** built with **TensorFlow** and **Keras**.
 
-The objective of the project is to Generate Anime Faces using Deep Convolutional Generative Adversarial Network (DCGAN) with Keras and Tensorflow in Kaggle Notebook. This is an advanced deep learning project which we have to train 2 models, namely generator and discriminator. The Discriminator try to classify the images whether it is real (or) fake images. The Generator try to produce images that are close to real and fool the discriminator. Finally, the generator will produce similar images to the train dataset with different variety as output.
+This project demonstrates how Generative Adversarial Networks (GANs) can learn the distribution of anime face images and generate entirely new faces from random noise.
 
+---
 
-**Download link:** https://www.kaggle.com/datasets/soumikrakshit/anime-faces
+## 🚀 Features
 
-**Environment:** Kaggle
+- Deep Convolutional GAN (DCGAN)
+- TensorFlow & Keras Implementation
+- Automatic Dataset Preprocessing
+- Generator & Discriminator Networks
+- Training Loss Visualization
+- Anime Face Image Generation
+- Jupyter Notebook Implementation
 
-# Libraries
+---
 
-- numpy
-- matplotlib
-- keras
-- tensorflow
-- nltk
+## 🛠️ Tech Stack
 
-# Neural Network
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- OpenCV
+- Jupyter Notebook
 
-- Deep Convolutional Generative Adversarial Network (DCGAN)
-=======
-# Anime-Face-Generation
-Generate realistic anime faces using Deep Convolutional Generative Adversarial Networks (DCGAN) built with TensorFlow and Keras.
->>>>>>> 7c42fdc8cfbab84c64d443b8d358bd508eebba86
+---
+
+## 📂 Project Structure
+
+```
+Anime-Face-Generation/
+│
+├── Dataset/
+├── Generated Images/
+├── Anime Face Generation - DCGAN - Keras-Tensorflow.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🧠 How It Works
+
+1. Load and preprocess the anime face dataset.
+2. Build the Generator network.
+3. Build the Discriminator network.
+4. Train both models using adversarial learning.
+5. Generate new anime faces from random latent vectors.
+
+---
+
+## 📊 Results
+
+After sufficient training, the Generator learns the distribution of anime faces and produces realistic anime-style images from random noise.
+
+---
+
+## 📸 Sample Output
+
+> Add generated images here after training.
+
+---
+
+## 🔮 Future Improvements
+
+- StyleGAN Implementation
+- Conditional GAN (CGAN)
+- Higher Resolution Image Generation
+- Streamlit Web Application
+- Model Checkpoint Saving
+- Image Generation API
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Deep Learning
+- Generative AI
+- GANs (Generative Adversarial Networks)
+- Computer Vision
+- TensorFlow
+- Model Training
+- Image Generation
+
+---
+
+## ⭐ If you found this project useful, don't forget to Star the repository!
