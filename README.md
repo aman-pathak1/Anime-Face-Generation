@@ -58,13 +58,7 @@ Anime-Face-Generation/
 
 After sufficient training, the Generator learns the distribution of anime faces and produces realistic anime-style images from random noise.
 
----
 
-## 📸 Sample Output
-
-> Add generated images here after training.
-
----
 
 ## 🔮 Future Improvements
 
