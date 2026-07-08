@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Anime Face Generation - DCGAN 
 
 # Project Information
@@ -20,3 +21,7 @@ The objective of the project is to Generate Anime Faces using Deep Convolutional
 # Neural Network
 
 - Deep Convolutional Generative Adversarial Network (DCGAN)
+=======
+# Anime-Face-Generation
+Generate realistic anime faces using Deep Convolutional Generative Adversarial Networks (DCGAN) built with TensorFlow and Keras.
+>>>>>>> 7c42fdc8cfbab84c64d443b8d358bd508eebba86
